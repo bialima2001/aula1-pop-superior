@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int saida = 4;
+    cin >> n;
+    for(int i = 5; i>=1 and n>0; i-- ){
+        saida = saida + i*n;
+        n--;
+    }
+    cout << saida;
+    return 0;
+}
+kattis filip
+codeforces 598a
+codeforces 600a
