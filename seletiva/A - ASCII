@@ -1,0 +1,64 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string a;
+    cin >> a;
+    for(int i = 0; i<a.size(); i++ ){
+        if(a[i] == 'a'){
+            cout << "01100001" << endl;
+        } else if(a[i] == 'b'){
+            cout << "01100010" << endl;
+        }else if(a[i] == 'c'){
+            cout << "01100011" << endl;
+        }else if(a[i] == 'd'){
+            cout << "01100100" << endl;
+        }else if(a[i] == 'e'){
+            cout << "01100101" << endl;
+        }else if(a[i] == 'f'){
+            cout << "01100110" << endl;
+        }else if(a[i] == 'g'){
+            cout << "01100111" << endl;
+        }else if(a[i] == 'h'){
+            cout << "01101000" << endl;
+        }else if(a[i] == 'i'){
+            cout << "01101001" << endl;
+        }else if(a[i] == 'j'){
+            cout << "01101010" << endl;
+        }else if(a[i] == 'k'){
+            cout << "01101011" << endl;
+        }else if(a[i] == 'l'){
+            cout << "01101100" << endl;
+        }else if(a[i] == 'm'){
+            cout << "01101101" << endl;
+        }else if(a[i] == 'n'){
+            cout << "01101110" << endl;
+        }else if(a[i] == 'o'){
+            cout << "01101111" << endl;
+        }else if(a[i] == 'p'){
+            cout << "01110000" << endl;
+        }else if(a[i] == 'q'){
+            cout << "01110001" << endl;
+        }else if(a[i] == 'r'){
+            cout << "01110010" << endl;
+        }else if(a[i] == 's'){
+            cout << "01110011" << endl;
+        }else if(a[i] == 't'){
+            cout << "01110100" << endl;
+        }else if(a[i] == 'u'){
+            cout << "01110101" << endl;
+        }else if(a[i] == 'v'){
+            cout << "01110110" << endl;
+        }else if(a[i] == 'w'){
+            cout << "01110111" << endl;
+        }else if(a[i] == 'x'){
+            cout << "01111000" << endl;
+        }else if(a[i] == 'y'){
+            cout << "01111001" << endl;
+        }else if(a[i] == 'z'){
+            cout << "01111010" << endl;
+        }
+    }
+    return 0;

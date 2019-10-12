@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string x;
+    cin >> x;
+    if(x == "A" || x== "B"|| x== "C"|| x == "D" || x=="E" || x == "F" || x== "CANOS" 
+      || x == "FACIL"|| x == "DIFICIL"|| x == "ASCII" || x == "BACTERIAS" ||x== "EXPLOSAO"){
+        cout << "DIFICIL" << endl;
+    }
+    return 0;
+} 
